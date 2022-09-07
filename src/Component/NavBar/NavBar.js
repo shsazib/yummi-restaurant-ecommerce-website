@@ -1,13 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import "./NavBar.css";
 import { NavLink, Link } from "react-router-dom";
 import Logo from "./image/logo.png";
 import { HiOutlineSearch } from "react-icons/hi";
 import { CgProfile } from "react-icons/cg";
 import { BsSuitHeart } from "react-icons/bs";
+import { FaBars } from "react-icons/fa";
+import { GrClose } from "react-icons/gr";
 import { RiShoppingBasketLine, RiArrowDownSLine } from "react-icons/ri";
 
 const NavBar = () => {
+  const [change, setChange] = useState(false);
+  const [click, setClick] = useState(false);
+
+  const handelClick = () => {
+    setChange(!change);
+  };
+  const clicked = () => {
+    setClick(!click);
+  };
+
   return (
     <>
       <section className="full-nav-bar">
@@ -17,7 +29,13 @@ const NavBar = () => {
               <img src={Logo} alt="Logo"></img>
             </Link>
           </div>
-          <div className="full-nav-right-side">
+          <div
+            className={
+              change
+                ? "full-nav-right-side"
+                : " full-nav-right-side full-nav-right-side-close"
+            }
+          >
             <nav>
               <ul>
                 <li>
@@ -36,12 +54,14 @@ const NavBar = () => {
                   <NavLink to="/blog">Blog</NavLink>
                 </li>
                 <div className="sub-menu">
-                  <li className="sub-menu-index">
+                  <li className="sub-menu-index" onClick={clicked}>
                     <Link to="#">Pages</Link>
-                    <RiArrowDownSLine />
+                    <RiArrowDownSLine className={click ? "page-array" : ""} />
                   </li>
 
-                  <ul className="main-sub-menu">
+                  <ul
+                    className={click ? "main-sub-menu-close" : "main-sub-menu"}
+                  >
                     <li>
                       <NavLink to="/faq">FAQ</NavLink>
                     </li>
@@ -56,14 +76,31 @@ const NavBar = () => {
               </ul>
             </nav>
             <div className="nav-icon">
-              <div>
-                <input />
-                <HiOutlineSearch />
+              <div className="nav-input-search">
+                <input placeholder="Search..." />
+                <HiOutlineSearch className="search-icon" />
               </div>
-              <CgProfile />
-              <BsSuitHeart />
-              <RiShoppingBasketLine />
+              <div className="nav-right-3icon">
+                <div className="nav-right-icon profile-right">
+                  <CgProfile />
+                </div>
+                <div className="nav-right-icon right-span">
+                  <BsSuitHeart />
+                  <span className="nav-right-icon-span">0</span>
+                </div>
+                <div className="nav-right-icon right-span">
+                  <RiShoppingBasketLine />
+                  <span className="nav-right-icon-span">0</span>
+                </div>
+              </div>
             </div>
+          </div>
+          <div className="nav-responsive-icon" onClick={handelClick}>
+            {change ? (
+              <GrClose className="nav-responsive-bars-icon" />
+            ) : (
+              <FaBars className="nav-responsive-bars-icon" />
+            )}
           </div>
         </div>
       </section>
