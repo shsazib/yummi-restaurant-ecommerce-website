@@ -11,7 +11,7 @@ import { RiShoppingBasketLine, RiArrowDownSLine } from "react-icons/ri";
 
 const NavBar = () => {
   const [change, setChange] = useState(false);
-  const [click, setClick] = useState(false);
+  const [click, setClick] = useState(true);
 
   const handelClick = () => {
     setChange(!change);
@@ -59,8 +59,8 @@ const NavBar = () => {
                     <RiArrowDownSLine className={click ? "page-array" : ""} />
                   </li>
 
-                  <ul
-                    className={click ? "main-sub-menu-close" : "main-sub-menu"}
+                  <ul id="main-sub-menu"
+                    className={click ? "main-sub-menu" : "main-sub-menu-close"}
                   >
                     <li>
                       <NavLink to="/faq">FAQ</NavLink>

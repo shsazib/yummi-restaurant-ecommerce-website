@@ -1,51 +1,35 @@
-import React from 'react';
-import './Home.css';
+import React from "react";
+import "./Home.css";
+import HomeHade from './HomeHead/HomeHade';
 
-const home = () => {
+
+
+const Home = () => {
   return (
     <>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
-    <h1>home</h1>
+      <section className="home">
+        <HomeHade />
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+      </section>
     </>
-  )
-}
+  );
+};
 
-export default home;
+export default Home;
