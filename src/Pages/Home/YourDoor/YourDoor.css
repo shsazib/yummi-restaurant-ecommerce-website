@@ -1,0 +1,68 @@
+.your-door{
+    padding: 5% 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 5rem;
+}
+.your-door-content h1{
+    font-size: calc(30px + (60 - 30) * (100vw - 320px) / (2100 - 320));
+    margin-bottom: 20px;
+}
+.your-door-content p{
+    font-size: calc(15px + (20 - 15) * (100vw - 320px) / (2100 - 320));
+    color: #878787;
+}
+.your-door-content-child{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+}
+.your-door-content-child-icon{
+    font-size: 50px;
+    margin: 20px 0;
+    color: #ee8422;
+}
+.your-door img{
+    width: 100%;
+}
+
+
+
+ /*=============== MEDIA QUERIES ===============*/
+
+
+
+@media screen and (max-width: 1500px) {
+    .your-door{
+        padding: 5%;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+    }
+    .your-door-content-child{
+        grid-gap: 2rem;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .your-door{
+        grid-template-columns: 1fr;
+    }
+    .your-door-content-child{
+        grid-gap: 2rem;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .your-door{
+        margin-top: 30%;
+    }
+}
+@media screen and (max-width: 850px) {
+    .your-door{
+        margin-top: 20%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .your-door{
+        margin-top: 45%;
+    }
+}

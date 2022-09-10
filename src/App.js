@@ -1,4 +1,4 @@
-import React from 'react';
+
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from './Component/NavBar/NavBar';
@@ -12,6 +12,8 @@ import PageFAQ from './Pages/Page/FAQ/FAQ';
 import PageOurTeams from './Pages/Page/OurTeams/OurTeams';
 import Shop from './Pages/Shop/Shop';
 import Error from './Pages/Error/Error';
+
+
 
 const App = () => {
   return (

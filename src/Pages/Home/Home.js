@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import HomeHade from './HomeHead/HomeHade';
+import YourDoor from './YourDoor/YourDoor';
 
 
 
@@ -9,24 +10,7 @@ const Home = () => {
     <>
       <section className="home">
         <HomeHade />
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
+        <YourDoor />
       </section>
     </>
   );

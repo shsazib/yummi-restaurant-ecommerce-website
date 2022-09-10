@@ -13,7 +13,6 @@ import {
 const Footer = () => {
   return (
     <>
-      ?
       <div className="all-footer">
         <div className="footer">
           <div className="footer-address">
