@@ -1,7 +1,8 @@
 import React from 'react';
-import '../node_modules/bootstrap/dist/css/bootstrap-reboot.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from './Component/NavBar/NavBar';
+import Footer from './Component/Footer/Footer';
 import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Blog from './Pages/Blog/Blog';
@@ -31,6 +32,7 @@ const App = () => {
       <Route path="/shop" element={<Shop />} />
       <Route path="*" element={<Error />} />
     </Routes>
+    <Footer />
     </BrowserRouter>
     </>
   )
