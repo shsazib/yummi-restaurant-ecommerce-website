@@ -1,9 +1,19 @@
 import React from 'react';
 import './About.css';
+import WhyChoose from './WhyChoose/WhyChoose';
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+    <section className='about'>
+      <section className='about-head'>
+        <h1>About Us</h1>
+      </section>
+      <section>
+        <WhyChoose />
+      </section>
+    </section>
+    </>
   )
 }
 

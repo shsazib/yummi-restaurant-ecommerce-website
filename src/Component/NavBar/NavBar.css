@@ -10,6 +10,7 @@
   box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
   padding: 0 10%;
   background-color: #fff;
+  z-index: 999;
 }
 .full-nav-bar .menu {
   height: 80px;

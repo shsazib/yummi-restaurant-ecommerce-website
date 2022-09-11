@@ -30,7 +30,7 @@ export default class SimpleSlider extends Component {
           </div>
           <div className="testimonialSlider">
           <img src={Img2} alt="Img2"/>
-            <h4>ANJELINA<span>, USA</span></h4>
+            <h4>Anjelina<span>, USA</span></h4>
             <p>"Donec pretium vulputate sapien nec  in ornare quam. Consequat interdum varius sit amet mattis vulputate enim nulla. Purus faucibus ornar."</p>
           </div>
           <div className="testimonialSlider">

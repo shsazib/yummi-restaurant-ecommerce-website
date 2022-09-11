@@ -1,0 +1,68 @@
+.why-choose-full{
+    background-color: #fdf8f3;
+}
+.why-choose-full h1{
+    text-align: center;
+    padding-top: 30px;
+    color: #494949;
+    font-weight: 700;
+    font-size: calc(25px + (45 - 25) * (100vw - 320px) / (1920 - 320));
+}
+.why-choose{
+    display: grid;
+    padding: 3% 15% 5% 15%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4rem;
+}
+.why-choose-card{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    background-color: #fff;
+}
+.why-choose-card img{
+    width: 100%;
+}
+.why-choose-card h1, p{
+    padding: 5px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.why-choose-card p{
+    letter-spacing: 1px;
+    color: #737373;
+    text-align: justify;
+    font-size: calc(15px + (18 - 15) * (100vw - 320px) / (1920 - 320));
+}
+.why-choose-card h1{
+    font-size: calc(22px + (30 - 22) * (100vw - 320px) / (1920 - 320));
+    font-weight: 600;
+    color: #494949;
+    text-align: left;
+}
+.why-choose-card button{
+    margin:  0 0 20px 20px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-weight: 600;
+    color: #ee8422;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .why-choose{
+        padding: 3% 5% 5% 5%;
+        grid-gap: 2rem;
+    }
+}
+@media screen and (max-width: 900px) {
+    .why-choose{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 3rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .why-choose{
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+    }
+}

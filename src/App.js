@@ -11,6 +11,7 @@ import Menu from './Pages/Menu/Menu';
 import PageFAQ from './Pages/Page/FAQ/FAQ';
 import PageOurTeams from './Pages/Page/OurTeams/OurTeams';
 import Shop from './Pages/Shop/Shop';
+import WhyChooseUsDetails from './Pages/About/WhyChoose/WhyChooseUsDetails/WhyChooseUsDetails';
 import Error from './Pages/Error/Error';
 
 
@@ -32,6 +33,7 @@ const App = () => {
         <Route path="/ourteams" element={<PageOurTeams />} />
       </Route>
       <Route path="/shop" element={<Shop />} />
+      <Route path="/about/:path" element={<WhyChooseUsDetails />} />
       <Route path="*" element={<Error />} />
     </Routes>
     <Footer />

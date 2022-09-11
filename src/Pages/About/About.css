@@ -1,0 +1,12 @@
+.about-head{
+    background: url('./image/bg-popup.png') no-repeat center;
+    background-size: cover;
+    height: 30vh;
+    width: 100%;
+}
+.about-head h1{
+    color: #ee8422;
+    text-align: center;
+    padding: 140px 0;
+    font-weight: 700;
+}
