@@ -47,10 +47,10 @@
   font-weight: 600;
   color: #fff;
 }
-.btn-grup {
+.btn-group {
   margin: 60px;
 }
-.btn-grup button {
+.btn-group button {
   border: 1px solid #ee8422;
   margin: 10px;
   padding: 10px 30px;
@@ -63,7 +63,7 @@
   outline: none;
   transition: 0.5s;
 }
-.btn-grup button:hover {
+.btn-group button:hover {
   color: #fff;
   background-color: #ee8422;
 }
@@ -115,7 +115,7 @@
   }
 }
 @media screen and (max-width: 650px) {
-  .btn-grup {
+  .btn-group {
     margin: 40px 20px;
   }
   .main-card-container {
@@ -128,7 +128,7 @@
     flex-direction: column;
     align-items: center;
   }
-  .btn-grup button {
+  .btn-group button {
     margin: 5px;
     padding: 5px 15px;
     font-size: 12px;

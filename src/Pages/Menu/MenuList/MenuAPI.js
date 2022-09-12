@@ -1,19 +1,19 @@
 import Burger1 from "./Image/3-1-450x450.png";
 import Burger2 from "./Image/7-1-450x450.png";
 import Burger3 from "./Image/h-1-480x480.jpg";
-import Burger4 from "./Image/bdemo1-0927393382-1-238x238.jpg";
-import Burger5 from "./Image/bdemo1-1000422914-1-238x238.jpg";
-import Burger6 from "./Image/bdemo1-1009876767-1-238x238.jpg";
-import Burger7 from "./Image/bdemo1-1053813868-1-238x238.jpg";
-import Burger8 from "./Image/bbdemo1-0932796702-1-238x238.jpg";
-import Burger9 from "./Image/bbdemo1-1058276634-1-238x238.jpg";
+import Burger4 from "./Image/1-0927393382-1-238x238.jpg";
+import Burger5 from "./Image/1-1000422914-1-238x238.jpg";
+import Burger6 from "./Image/1-1009876767-1-238x238.jpg";
+import Burger7 from "./Image/1-1053813868-1-238x238.jpg";
+import Burger8 from "./Image/1-0932796702-1-238x238.jpg";
+import Burger9 from "./Image/1-1058276634-1-238x238.jpg";
 
 import Juice1 from "./Image/52-1-450x450.png";
 import Juice2 from "./Image/54.1-450x450.png";
-import Juice3 from "./Image/demo1-1050681807-1-238x238.jpg";
-import Juice4 from "./Image/demo1-1050786752-1-238x238.jpg";
-import Juice5 from "./Image/demo1-1050812597-1-238x238.jpg";
-import Juice6 from "./Image/demo1-1050814060-1-238x238.jpg";
+import Juice3 from "./Image/1-1050681807-1-238x238.jpg";
+import Juice4 from "./Image/1-1050786752-1-238x238.jpg";
+import Juice5 from "./Image/1-1050812597-1-238x238.jpg";
+import Juice6 from "./Image/1-1050814060-1-238x238.jpg";
 
 import Pizza1 from "./Image/p1-480x480.jpg";
 import Pizza2 from "./Image/p2-480x480.jpg";
@@ -33,7 +33,7 @@ const MenuAPI = [
     category: "pizza",
     price: "$18.80",
     description:
-      "Rerum quisquam dolore repellat nihil. Quia quas quia et optio. Dignissimos qui voluptatem et enim corporis nemo. Id laudantium autem est quo aut...",
+      "It has survived not only five centuries, and more recently with desktop publishing software PageMaker including versions of Lorem Ipsum.",
   },
   {
     id: 2,
@@ -42,7 +42,7 @@ const MenuAPI = [
     category: "burger",
     price: "$15.20",
     description:
-      "Veritatis natus numquam voluptatem voluptas animi quia officia. Asperiores ipsam sequi consequuntur tempora corrupti tempora vero.",
+      "Survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
   {
     id: 3,
@@ -51,7 +51,7 @@ const MenuAPI = [
     category: "pizza",
     price: "$13.80",
     description:
-      "Qui ut neque et minima qui incidunt. Velit et provident ex itaque. Perferendis quasi ducimus et at.",
+      "Centuries not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
   {
     id: 4,
@@ -60,7 +60,7 @@ const MenuAPI = [
     category: "drinks",
     price: "$11.90",
     description:
-      "View great tasting Tropicana Orange Juice and Juice Drink Products. Featuring Tropicana Orange Juice",
+      "Survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
   {
     id: 5,
@@ -68,16 +68,17 @@ const MenuAPI = [
     name: "Angus burger",
     category: "burger",
     price: "$80.50",
-    description: "A hamburger made using beef from Angus cattle.",
+    description:
+      "ASurvived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
   {
     id: 6,
     image: Pizza2,
-    name: "Gorgeous Slik Plate",
+    name: "Gorgeous Slick Plate",
     category: "pizza",
     price: "$26.10",
     description:
-      "Totam quam commodi explicabo omnis omnis. Necessitatibus aliquam dolore dolores et eos dolor qui. Esse consequatur reiciendis qui ad.",
+      "Survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
   {
     id: 7,
@@ -86,7 +87,7 @@ const MenuAPI = [
     category: "drinks",
     price: "$3.50",
     description:
-      "Investing in a reusable water bottle that you can refill throughout the day. Carrying one…",
+      "Investing Survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
   {
     id: 8,
@@ -103,7 +104,7 @@ const MenuAPI = [
     category: "soups",
     price: "$50.50",
     description:
-      "Atque odio inventore et. Quibusdam exercitationem provident rerum aut quia. Qui quaerat numquam quis quisquam. Aut aut dignissimos consequuntur",
+      "Survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
   {
     id: 10,
@@ -112,7 +113,7 @@ const MenuAPI = [
     category: "soups",
     price: "$6.50",
     description:
-      "Lorem ipsu dolor sit amet, and me to consectetur adipisicing elit. Dol, esse. and  consectetur.",
+      "Lorem Survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
   {
     id: 11,
@@ -120,7 +121,8 @@ const MenuAPI = [
     name: "Bacon cheeseburger",
     category: "burger",
     price: "$5.50",
-    description: "Hamburger with bacon and cheese",
+    description:
+      "HamburgerSurvived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
   {
     id: 12,
@@ -129,17 +131,17 @@ const MenuAPI = [
     category: "pizza",
     price: "$6.50",
     description:
-      "Est eius aperiam id eveniet quidem. Quas ad minus officiis magnam. Architecto et sit quo. Quos fugit asperiores aperiam consequuntur.",
+      "EstSurvived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
 
   {
     id: 13,
     image: Burger9,
-    name: "Double slugburger",
+    name: "Double slug Burger",
     category: "burger",
     price: "$14.50",
     description:
-      "Served on a bun with mustard, pickles, onion, and French fries",
+      "Served Survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
   {
     id: 14,
@@ -147,7 +149,8 @@ const MenuAPI = [
     name: "Melon smoothie",
     category: "drinks",
     price: "$4.30",
-    description: "Hurtleberry, almond milk, chia seeds",
+    description:
+      "Survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
   {
     id: 15,
@@ -155,15 +158,17 @@ const MenuAPI = [
     name: "Buffalo burger",
     category: "burger",
     price: "$12.80",
-    description: "Buffalo burgers have less cholesterol and less fat",
+    description:
+      "Buffalo Survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
   {
     id: 16,
     image: Juice5,
-    name: "Hurtleberry smoothie",
+    name: "Hurt smoothie",
     category: "drinks",
     price: "$5.80",
-    description: "Hurtleberry, almond milk, chia seeds",
+    description:
+      "Survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
   {
     id: 17,
@@ -171,7 +176,8 @@ const MenuAPI = [
     name: "Double Buffalo burger",
     category: "burger",
     price: "$9.50",
-    description: "Buffalo burgers have less cholesterol and less fat",
+    description:
+      "Buffalo Survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
   {
     id: 18,
@@ -180,7 +186,7 @@ const MenuAPI = [
     category: "soups",
     price: "$30.50",
     description:
-      "Lorem ipsu dolor sit amet, and me to consectetur adipisicing elit. Dol, esse. and  consectetur.",
+      "Lorem Survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
   {
     id: 19,
@@ -188,7 +194,8 @@ const MenuAPI = [
     name: "Blueberry smoothie",
     category: "drinks",
     price: "$7.00",
-    description: "Blackberry, almond milk, chia seeds",
+    description:
+      "Blackberry Survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
   {
     id: 20,
@@ -197,7 +204,7 @@ const MenuAPI = [
     category: "pizza",
     price: "$11.50",
     description:
-      "Lorem ipsu dolor sit amet, and me to consectetur adipisicing elit. Dol, esse. and  consectetur.",
+      "Lorem Survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
   {
     id: 21,
@@ -205,7 +212,8 @@ const MenuAPI = [
     name: "Blackberry smoothie",
     category: "drinks",
     price: "$5.30",
-    description: "Blackberry, almond milk, chia seeds",
+    description:
+      "Blackberry Survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
   {
     id: 22,
@@ -214,7 +222,7 @@ const MenuAPI = [
     category: "burger",
     price: "$5.20",
     description:
-      "A mighty meaty double helping of all the reasons you love our burger.",
+      "A Survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
   {
     id: 23,
@@ -223,7 +231,7 @@ const MenuAPI = [
     category: "burger",
     price: "$6.00",
     description:
-      "A mighty meaty double helping of all the reasons you love our burger.",
+      "Survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Containing Lorem Ipsum passages.",
   },
 ];
 

@@ -12,7 +12,7 @@ const MenuCard = ({ menuData }) => {
             <>
               <div className="menu-card-container" key={id}>
                 <div className="menu-card">
-                  <div className="meni-left">
+                  <div className="mani-left">
                     <img src={image} alt="img" />
                   </div>
 

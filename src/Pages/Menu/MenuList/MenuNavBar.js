@@ -2,7 +2,7 @@ const MenuNavbar = ({ filterItem, menuList }) => {
   return (
     <>
       <nav className="menuNavbar d-flex justify-content-center">
-        <div className="btn-grup">
+        <div className="btn-group">
           {menuList.map((curElm) => {
             return (
               <>
