@@ -2,7 +2,7 @@ import React from "react";
 import MenuAPI from "./MenuAPI";
 import MenuCard from "./MenuCard";
 import "./MenuList.css";
-import MenuNavBar from './MenuNavBar';
+import MenuNavBar from "./MenuNavBar";
 
 const uniqeList = [
   ...new Set(
