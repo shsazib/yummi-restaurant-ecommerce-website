@@ -1,0 +1,12 @@
+.menu-head{
+    background: url('./images/top-view-fast-food-plate-with-copy-space_23-2148374943.jpg') no-repeat center;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+.menu-head h1{
+    color: #fff;
+    text-align: center;
+    padding: 240px 0;
+    font-weight: 700;
+}

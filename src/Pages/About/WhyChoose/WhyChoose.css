@@ -22,7 +22,7 @@
 .why-choose-card img{
     width: 100%;
 }
-.why-choose-card h1, p{
+.why-choose-card h1, .why-choose-card p{
     padding: 5px 20px;
     font-family: Arial, Helvetica, sans-serif;
 }

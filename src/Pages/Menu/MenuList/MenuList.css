@@ -1,0 +1,144 @@
+.main-card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2% 15%;
+    grid-gap: 4rem;
+}
+.menu-card-container{
+    border: 1px dotted #ee8422;
+    border-radius: 10px;
+    transition: 0.4s;
+    position: relative;
+}
+.menu-card-container:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.menu-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.menu-card img{
+    width: 95%;
+    margin: 10px;
+}
+.menu-card-body{
+    padding: 10px 20px;
+}
+.menu-card-body span, .menu-card-body h5, .menu-card-body h2{
+    color: #555555;
+}
+.menu-card-body h3{
+    margin-top: 10px;
+    font-size: 25px;
+    color: #ee8422;
+}
+.menu-card-body button{
+    border: none;
+    outline: none;
+    background-color: #ee8422;
+    margin: 10px 0;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+.btn-grup{
+    margin: 60px;
+}
+.btn-grup button{
+    border: 1px solid #ee8422;
+    margin: 10px;
+    padding: 10px 30px;
+    color: #ee8422;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #fff;
+    border-radius: 20px;
+    outline: none;
+    transition: 0.5s;
+}
+.btn-grup button:hover{
+    color: #fff;
+    background-color: #ee8422;
+}
+.menu-wish-list{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 0 0 10px;
+    font-size: 25px;
+    color: #9b9b9b;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.menu-wish-list:hover{
+    color: #ee8422;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+    .main-card-container{
+        padding: 2% 10%;
+        grid-gap: 2rem;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .main-card-container{
+        padding: 2% 10%;
+        grid-gap: 2rem;
+    }
+    .menu-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 850px) {
+    .main-card-container{
+        grid-template-columns: 1fr;
+        padding: 2% 10%;
+        grid-gap: 2rem;
+    }
+    .menu-card{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 650px) {
+    .btn-grup{
+        margin: 40px 20px;
+    }
+    .main-card-container{
+        grid-template-columns: 1fr;
+        padding: 2% 5%;
+        grid-gap: 2rem;
+    }
+    .menu-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-grup button{
+        margin: 5px;
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+}
