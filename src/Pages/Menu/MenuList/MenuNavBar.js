@@ -5,9 +5,9 @@ const MenuNavbar = ({ filterItem, menuList }) => {
         <div className="btn-group">
           {menuList.map((curElm) => {
             return (
-              <>
+              <div>
                 <button onClick={() => filterItem(curElm)}>{curElm}</button>
-              </>
+              </div>
             );
           })}
         </div>

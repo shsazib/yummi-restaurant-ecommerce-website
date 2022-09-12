@@ -117,6 +117,8 @@
 @media screen and (max-width: 650px) {
   .btn-group {
     margin: 40px 20px;
+    display: grid;
+    justify-items: center;
   }
   .main-card-container {
     grid-template-columns: 1fr;
