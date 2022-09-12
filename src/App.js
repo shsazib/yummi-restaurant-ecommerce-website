@@ -1,6 +1,7 @@
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ScrollTop from './Component/ScrollTop/ScrollTop';
 import NavBar from './Component/NavBar/NavBar';
 import Footer from './Component/Footer/Footer';
 import Home from './Pages/Home/Home';
@@ -20,6 +21,7 @@ const App = () => {
   return (
     <>
     <BrowserRouter>
+    <ScrollTop />
     <NavBar />
     <Routes>
       <Route path="/" element={<Home />}/>

@@ -1,0 +1,80 @@
+.pizza-of-the-day {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: 5% 20% 0% 20%;
+  background-color: #2c2d2d;
+}
+.pizza-of-the-day img {
+  height: 100%;
+}
+.pizza-of-the-day-content {
+  color: #fff;
+}
+.pizza-of-the-day-content h3 {
+  font-size: 22px;
+}
+.pizza-of-the-day-content h1 {
+  font-size: 45px;
+}
+.pizza-of-the-day-content button {
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  background-color: #ee8422;
+  border-radius: 5px;
+}
+
+
+
+/*=============== MEDIA QUERIES ===============*/
+
+
+
+@media screen and (max-width: 1800px) {
+  .pizza-of-the-day {
+    padding: 0 5%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .pizza-of-the-day img {
+    height: 450px;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .pizza-of-the-day img {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .pizza-of-the-day {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  .pizza-of-the-day-content {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .pizza-of-the-day {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  .pizza-of-the-day-content {
+    text-align: center;
+  }
+  .pizza-of-the-day img {
+    height: 210px;
+  }
+  .pizza-of-the-day-content h1 {
+    font-size: 35px;
+  }
+}
