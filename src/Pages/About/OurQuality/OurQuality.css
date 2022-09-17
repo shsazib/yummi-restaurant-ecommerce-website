@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
+
+.our-quality{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5% 15%;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 5rem;
+}
+.our-quality img{
+    width: 80%;
+}
+
+.our-quality-left-section h2{
+    font-family: 'Euphoria Script', cursive;
+    color: #ee8422;
+    font-size: calc(22px + (45 - 22) * (100vw - 320px) / (2100 - 320));
+}
+.our-quality-left-section h1{
+    color: #494949;
+    font-weight: 700;
+    font-size: calc(25px + (50 - 25) * (100vw - 320px) / (2100 - 320));
+}
+.our-quality-left-section p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: calc(16px + (17 - 16) * (100vw - 320px) / (2100 - 320));
+    line-height: 27px;
+    letter-spacing: 1px;
+}
+.our-quality-left-section  button{
+    border: none;
+    outline: none;
+    background-color: #ee8422;
+    color: #fff;
+    padding: 10px 35px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1250px) {
+    .our-quality{
+        margin: 5%;
+        grid-gap: 2rem;
+       
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .our-quality{
+        grid-template-columns: 1fr;
+        margin: 25% 5% 20% 5%;
+    }
+    .our-burger-quality{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .our-quality-burger-right-section:nth-of-type(1){
+        order: 2;
+    }
+}

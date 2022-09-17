@@ -22,6 +22,7 @@ export default class SimpleSlider extends Component {
     };
     return (
       <div className="full-slider">
+        <h1 className="client-says-header">What your client says</h1>
         <Slider {...settings} className="slider-main">
           <div className="testimonialSlider">
             <img src={Img1} alt="Img1"/>

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
+
+.best-burger{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5% 15%;
+    grid-gap: 5rem;
+    align-items: center;
+}
+.best-burger-right-section img{
+width: 100%;
+border-radius: 10px;
+}
+.best-burger-left-section h2{
+    font-family: 'Euphoria Script', cursive;
+    color: #ee8422;
+    font-size: calc(25px + (65 - 25) * (100vw - 320px) / (2100 - 320));
+}
+.best-burger-left-section h1{
+    color: #494949;
+    font-weight: 700;
+    font-size: calc(25px + (65 - 25) * (100vw - 320px) / (2100 - 320));
+}
+.best-burger-left-section p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: calc(16px + (17 - 16) * (100vw - 320px) / (2100 - 320));
+    line-height: 27px;
+    letter-spacing: 1px;
+}
+.best-burger-left-section  button{
+    border: none;
+    outline: none;
+    background-color: #ee8422;
+    color: #fff;
+    padding: 10px 35px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1250px) {
+    .best-burger{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 5%;
+        grid-gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .best-burger{
+        grid-template-columns: 1fr;
+        margin: 5%;
+    }
+}
