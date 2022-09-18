@@ -1,13 +1,14 @@
 .menu-head {
-  background: url("./images/top-view-fast-food-plate-with-copy-space_23-2148374943.jpg")
+  background: url("./images/bg-popup.png")
     no-repeat center;
   background-size: cover;
-  height: 50vh;
+  height: 30vh;
   width: 100%;
+  background-color: #fdf8f3;
 }
 .menu-head h1 {
-  color: #fff;
+  color: #ee8422;
   text-align: center;
-  padding: 240px 0;
+  padding: 140px 0;
   font-weight: 700;
 }

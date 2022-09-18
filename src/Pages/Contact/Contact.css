@@ -1,0 +1,176 @@
+.contact-head {
+  background: url("./image/bg-popup.png") no-repeat center;
+  background-size: cover;
+  height: 30vh;
+  width: 100%;
+  background-color: #fdf8f3;
+}
+.contact-head h1 {
+  color: #ee8422;
+  text-align: center;
+  padding: 140px 0;
+  font-weight: 700;
+}
+
+.contact-middle h1 {
+  color: #2c2c2c;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 40px;
+}
+.contact-middle-p {
+  color: #737373;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.contact-middle {
+  margin: 2% 15%;
+}
+.contact-address {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.contact-icon {
+  font-size: 50px;
+  color: #ee8422;
+  margin: 25px 0;
+}
+.contact-address h6 {
+  color: #2c2c2c;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.contact-address p {
+  font-size: 17px;
+  color: #737373;
+  line-height: 15px;
+}
+
+.contact-map-address {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  margin: 5% 15%;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+}
+.contact-map-address iframe {
+  width: 100%;
+  height: 100%;
+}
+.contact-map-address form {
+  display: grid;
+  margin: 40px;
+}
+.contact-map-address form h1 {
+  color: #2c2c2c;
+  font-weight: 700;
+}
+.contact-map-address form p {
+  color: #737373;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact-map-address form input,
+.contact-map-address form textarea,
+.contact-map-address form button {
+  margin: 15px 0;
+}
+.contact-map-address form input,
+.contact-map-address form textarea {
+  padding: 10px;
+  border: 1px solid #eeeeee;
+  outline: none;
+  border-radius: 10px;
+}
+.contact-map-address form textarea {
+  height: 200px;
+}
+.contact-map-address form button {
+  width: 180px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 12px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #2c2c2c;
+  background-color: #ee8422;
+  transition: 0.3s;
+}
+.contact-map-address form button:hover {
+  color: #fff;
+}
+
+
+
+
+/*=============== MEDIA QUERIES ===============*/
+
+
+
+
+
+@media screen and (max-width: 1590px) {
+  .contact-address {
+    justify-items: center;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .contact-middle {
+    margin: 2% 10%;
+  }
+  .contact-map-address {
+    margin: 5% 10%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .contact-middle {
+    margin: 5%;
+  }
+  .contact-map-address {
+    grid-template-columns: 1fr;
+  }
+  .contact-map-address iframe {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contact-middle h1 {
+    text-align: left;
+  }
+  .contact-middle-p {
+    text-align: left;
+  }
+  .contact-middle {
+    margin: 10%;
+  }
+  .contact-address {
+    grid-template-columns: 1fr;
+    justify-items: left;
+  }
+  .contact-map-address {
+    margin: 5%;
+  }
+  .contact-map-address form {
+    margin: 10px;
+  }
+  .contact-map-address form input,
+  .contact-map-address form textarea,
+  .contact-map-address form button {
+    margin: 10px 0;
+  }
+  .contact-map-address form button {
+    width: 150px;
+    border-radius: 8px;
+    padding: 8px 22px;
+    font-weight: 600;
+  }
+  .contact-map-address iframe {
+    height: 350px;
+  }
+  .contact-map-address form textarea {
+    height: 150px;
+  }
+}
