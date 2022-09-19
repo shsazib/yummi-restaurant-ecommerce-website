@@ -3,15 +3,22 @@ import "./BlogDetails.css";
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { GoTriangleRight } from "react-icons/go";
+import { BsSearch } from "react-icons/bs";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
+import CommentForm from './CommentForm/CommentForm';
+import AddImg from './image/118639941_10158735516679120_1471934652881143028_n.jpg';
+import RecentImg1 from './image/blog-1.jpg'
+import RecentImg2 from './image/blog-2.jpg'
+import RecentImg3 from './image/blog-3.jpg'
+
 
 const BlogDetails = () => {
   const location = useLocation();
   return (
     <>
-      <section className="about-head">
-        <h1></h1>
-        <div className="about-head-link">
+      <section className="blog-details-head">
+      <h1></h1>
+        <div className="blog-details-head-link">
           <Link to="/home">
             Home
             <GoTriangleRight />
@@ -35,8 +42,43 @@ const BlogDetails = () => {
             </div>
             <p>{location.state.desc.slice(351, 1000000000)}</p>
           </div>
+          <CommentForm />
         </div>
-        <div></div>
+        <div className="blog-details-right">
+          <div className="blog-details-right-search">
+            <input placeholder="Search..."/>
+            <BsSearch className="blog-details-right-search-icon" />
+          </div>
+          <div className="recent-post">
+            <h4>Recent Posts</h4>
+            <div className="recent-post-content">
+              <img src={RecentImg1} alt="img"></img>
+              <div>
+                <h5>The Ultimate Hangover Burger</h5>
+                <p>Jun 15, 2022</p>
+              </div>
+            </div>
+          
+          
+            <div className="recent-post-content">
+              <img src={RecentImg2} alt="img"></img>
+              <div>
+                <h5>Egg in a Hole Burger Grilled Cheese</h5>
+                <p>August 10, 2021</p>
+              </div>
+            </div>
+          
+            <div className="recent-post-content">
+              <img src={RecentImg3} alt="img"></img>
+              <div>
+                <h5>The Ultimate Hangover Burger</h5>
+                <p>Jun 15, 2022</p>
+              </div>
+            </div>
+          
+        </div>
+        <img src={AddImg} alt="AddImg" className="add-img"></img>
+        </div>
       </section>
     </>
   );
