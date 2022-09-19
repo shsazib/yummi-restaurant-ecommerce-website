@@ -9,6 +9,25 @@
 .menu-head h1 {
   color: #ee8422;
   text-align: center;
-  padding: 140px 0;
+  padding: 140px 0 0 0; 
   font-weight: 700;
+  margin-bottom: 15px;
+}
+.menu-head-link{
+    display: flex;
+    justify-content: center;
+}
+.menu-head-link a, .menu-head-link p{
+    color: #000;
+    text-decoration: none;
+}
+.menu-head-link p{
+    font-weight: bold;
+}
+.menu-head-link a{
+    color: #828282;
+}
+.menu-head-link a:hover{
+    color: #ee8422;
+    text-decoration: underline;
 }

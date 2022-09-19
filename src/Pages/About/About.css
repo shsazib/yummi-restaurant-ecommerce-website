@@ -8,6 +8,25 @@
 .about-head h1{
     color: #ee8422;
     text-align: center;
-    padding: 140px 0;
+    padding: 140px 0 0 0;
     font-weight: 700;
+    margin-bottom: 15px;
+}
+.about-head-link{
+    display: flex;
+    justify-content: center;
+}
+.about-head-link a, .about-head-link p{
+    color: #000;
+    text-decoration: none;
+}
+.about-head-link p{
+    font-weight: bold;
+}
+.about-head-link a{
+    color: #828282;
+}
+.about-head-link a:hover{
+    color: #ee8422;
+    text-decoration: underline;
 }

@@ -1,5 +1,7 @@
 import React from "react";
 import "./Contact.css";
+import {Link} from "react-router-dom";
+import { GoTriangleRight } from 'react-icons/go';
 import { BsPhoneVibrate } from "react-icons/bs";
 import { GoLocation } from "react-icons/go";
 import { AiOutlineMail } from "react-icons/ai";
@@ -10,6 +12,10 @@ const Contact = () => {
       <section className="contact">
         <section className="contact-head">
           <h1>Contact Us</h1>
+          <div className="contact-head-link">
+            <Link to="/home">Home<GoTriangleRight /></Link>
+            <p> Contact</p>
+          </div>
         </section>
         <section className="contact-middle">
           <h1>Call us or visit place</h1>

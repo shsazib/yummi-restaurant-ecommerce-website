@@ -8,8 +8,27 @@
 .contact-head h1 {
   color: #ee8422;
   text-align: center;
-  padding: 140px 0;
+  padding: 140px 0 0 0;
   font-weight: 700;
+  margin-bottom: 15px;
+}
+.contact-head-link{
+    display: flex;
+    justify-content: center;
+}
+.contact-head-link a, .contact-head-link p{
+    color: #000;
+    text-decoration: none;
+}
+.contact-head-link p{
+    font-weight: bold;
+}
+.contact-head-link a{
+    color: #828282;
+}
+.contact-head-link a:hover{
+    color: #ee8422;
+    text-decoration: underline;
 }
 
 .contact-middle h1 {
