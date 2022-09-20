@@ -160,7 +160,7 @@ nav ul li:hover a {
   color: #fff;
   font-size: 12px;
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   left: 20px;
   text-align: center;
   font-weight: 600;
@@ -171,10 +171,6 @@ nav ul li:hover a {
 .nav-responsive-icon {
   display: none;
 }
-
-
-
-
 
 /*=============== MEDIA QUERIES ===============*/
 

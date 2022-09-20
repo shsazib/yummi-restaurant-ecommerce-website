@@ -8,10 +8,17 @@ import { BsSuitHeart } from "react-icons/bs";
 import { FaBars } from "react-icons/fa";
 import { GrClose } from "react-icons/gr";
 import { RiShoppingBasketLine, RiArrowDownSLine } from "react-icons/ri";
+import "react-responsive-modal/styles.css";
+import { Modal } from "react-responsive-modal";
+import Login from '../SignUp/SignUp'
 
 const NavBar = () => {
   const [change, setChange] = useState(false);
   const [click, setClick] = useState(true);
+
+  const [open, setOpen] = useState(false);
+  const onOpenModal = () => setOpen(true);
+  const onCloseModal = () => setOpen(false);
 
   const handelClick = () => {
     setChange(!change);
@@ -59,7 +66,8 @@ const NavBar = () => {
                     <RiArrowDownSLine className={click ? "page-array" : ""} />
                   </li>
 
-                  <ul id="main-sub-menu"
+                  <ul
+                    id="main-sub-menu"
                     className={click ? "main-sub-menu" : "main-sub-menu-close"}
                   >
                     <li>
@@ -82,7 +90,10 @@ const NavBar = () => {
               </div>
               <div className="nav-right-3icon">
                 <div className="nav-right-icon profile-right">
-                  <CgProfile />
+                  <CgProfile onClick={onOpenModal} />
+                  <Modal open={open} onClose={onCloseModal} center>
+                    <Login />
+                  </Modal>
                 </div>
                 <div className="nav-right-icon right-span">
                   <BsSuitHeart />
