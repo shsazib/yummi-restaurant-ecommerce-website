@@ -97,7 +97,7 @@
     color: #ee8422;
     cursor: pointer;
     font-size: 22px;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 .blog-details-right-search-icon:active{
     font-size: 18px;
