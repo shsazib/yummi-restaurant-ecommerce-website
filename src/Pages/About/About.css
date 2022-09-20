@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
+
+
+
 .about-head{
     background: url('./image/bg-popup.png') no-repeat center;
     background-size: cover;
@@ -29,4 +33,22 @@
 .about-head-link a:hover{
     color: #ee8422;
     text-decoration: underline;
+}
+
+
+
+.chef h2, .chef h1{
+    text-align: center;
+}
+.chef h2{
+    margin-top: 40px;
+    font-family: 'Euphoria Script', cursive;
+    color: #ee8422;
+    font-size: calc(25px + (40 - 25) * (100vw - 320px) / (1920 - 320));
+}
+.chef h1{
+    color: #494949;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(25px + (45 - 25) * (100vw - 320px) / (1920 - 320));
 }

@@ -6,6 +6,7 @@ import WhyChoose from "./WhyChoose/WhyChoose";
 import BestBurger from "./BestBurger/BestBurger";
 import VideoPlay from './VideoPlay/VideoPlay';
 import OurQuality from './OurQuality/OurQuality';
+import Teams from '../Page/OurTeams/Teams/Teams';
 
 const About = () => {
   return (
@@ -23,6 +24,11 @@ const About = () => {
           <VideoPlay />
           <OurQuality />
           <WhyChoose />
+          <div className="chef">
+            <h2>Always Quality</h2>
+            <h1>Our Talented Chefs</h1>
+            <Teams />
+          </div>
         </section>
       </section>
     </>

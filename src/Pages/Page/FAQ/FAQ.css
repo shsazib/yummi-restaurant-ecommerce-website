@@ -1,120 +1,120 @@
-.faq-head{
-    background: url('./image/bg-popup.png') no-repeat center;
-    background-size: cover;
-    height: 30vh;
-    width: 100%;
-    background-color: #fdf8f3;
+.faq-head {
+  background: url("./image/bg-popup.png") no-repeat center;
+  background-size: cover;
+  height: 30vh;
+  width: 100%;
+  background-color: #fdf8f3;
 }
-.faq-head h1{
-    color: #ee8422;
-    text-align: center;
-    padding: 140px 0 0 0;
-    font-weight: 700;
-    margin-bottom: 15px;
+.faq-head h1 {
+  color: #ee8422;
+  text-align: center;
+  padding: 140px 0 0 0;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
-.faq-head-link{
-    display: flex;
-    justify-content: center;
+.faq-head-link {
+  display: flex;
+  justify-content: center;
 }
-.faq-head-link a, .faq-head-link p{
-    color: #000;
-    text-decoration: none;
+.faq-head-link a,
+.faq-head-link p {
+  color: #000;
+  text-decoration: none;
 }
-.faq-head-link p{
-    font-weight: bold;
+.faq-head-link p {
+  font-weight: bold;
 }
-.faq-head-link a{
-    color: #828282;
+.faq-head-link a {
+  color: #828282;
 }
-.faq-head-link a:hover{
-    color: #ee8422;
-    text-decoration: underline;
-}
-
-
-
-
-p{
-    margin-bottom: 0rem;
-}
-.main-faq{
-    margin: 5% 0;
-}
-.faq{
-    width: 50%;
-    margin: 30px auto;
-}
-.question{
-    background-color: #ffebd9;
-    color: #222;
-    font-weight: 600;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-}
-.question-bg{
-    background-color: #ee8422;
-    color: #222;
-    font-weight: 600;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+.faq-head-link a:hover {
+  color: #ee8422;
+  text-decoration: underline;
 }
 
-.question-icon{
-    color: #222;
-    font-size: 30px;
-    margin-left: 10px;
+p {
+  margin-bottom: 0rem;
+}
+.main-faq {
+  margin: 5% 0;
+}
+.faq {
+  width: 50%;
+  margin: 30px auto;
+}
+.question {
+  background-color: #ffebd9;
+  color: #222;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.question-bg {
+  background-color: #ee8422;
+  color: #222;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.question-icon {
+  color: #222;
+  font-size: 30px;
+  margin-left: 10px;
 }
 .answer-show {
-    transition: 0.5s;
-    background-color: #fff;
-    border-bottom: 1px solid #d0d0d0;
-    border-left: 1px solid #d0d0d0;
-    border-right: 1px solid #d0d0d0;
-   display: block;
-   padding: 10px 30px;
-   color: #222;
-   font-family: Arial, Helvetica, sans-serif;
-   border-radius: 0 0 5px 5px;
-   line-height: 35px;
-   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  transition: 0.5s;
+  background-color: #fff;
+  border-bottom: 1px solid #d0d0d0;
+  border-left: 1px solid #d0d0d0;
+  border-right: 1px solid #d0d0d0;
+  display: block;
+  padding: 10px 30px;
+  color: #222;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 0 0 5px 5px;
+  line-height: 35px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 .answer-hide {
-   display: none;
+  display: none;
 }
 
-
 @media screen and (max-width: 1350px) {
-    .faq{
-        width: 80%;
-    }
+  .faq {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 700px) {
-    .faq{
-        width: 90%;
-        margin: 20px auto;
-    }
-    .question{
-        font-size: 16px;
-    }
-    .question-icon {
-        font-size: 22px;
-    }
-    .answer-show p{
-        font-size: 14px;
-    }
+  .faq {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .question {
+    font-size: 16px;
+  }
+  .question-icon {
+    font-size: 22px;
+  }
+  .answer-show p {
+    font-size: 14px;
+  }
 }
