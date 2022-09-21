@@ -10,7 +10,7 @@ import { GrClose } from "react-icons/gr";
 import { RiShoppingBasketLine, RiArrowDownSLine } from "react-icons/ri";
 import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
-import Login from '../SignUp/SignUp'
+import Login from "../SignUp/SignUp";
 
 const NavBar = () => {
   const [change, setChange] = useState(false);
@@ -96,12 +96,16 @@ const NavBar = () => {
                   </Modal>
                 </div>
                 <div className="nav-right-icon right-span">
-                  <BsSuitHeart />
-                  <span className="nav-right-icon-span">0</span>
+                  <Link to="/wishlist" className="right-span-link">
+                    <BsSuitHeart title="My Wishlist" />
+                    <span className="nav-right-icon-span">4</span>
+                  </Link>
                 </div>
                 <div className="nav-right-icon right-span">
-                  <RiShoppingBasketLine />
-                  <span className="nav-right-icon-span">0</span>
+                  <Link to="/cart" className="right-span-link">
+                    <RiShoppingBasketLine title="View your shopping cart" />
+                    <span className="nav-right-icon-span">0</span>
+                  </Link>
                 </div>
               </div>
             </div>

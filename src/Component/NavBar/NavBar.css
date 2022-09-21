@@ -160,13 +160,19 @@ nav ul li:hover a {
   color: #fff;
   font-size: 12px;
   position: absolute;
-  bottom: 0px;
+  bottom: 5px;
   left: 20px;
   text-align: center;
   font-weight: 600;
 }
-.right-span {
+.right-span{
   margin-right: 20px;
+}
+.right-span a{
+  color: #ee8422;
+}
+.right-span-link{
+  margin-bottom: 5px;
 }
 .nav-responsive-icon {
   display: none;
