@@ -13,7 +13,7 @@ const PopularDishesCard = ({ menuData }) => {
               <div className="menu-card-container" key={id}>
                 <div className="menu-card">
                   <div className="mani-left">
-                    <img src={image} alt="img" />
+                    <img src={image} alt="img"/>
                   </div>
 
                   <div className="menu-wish-list">

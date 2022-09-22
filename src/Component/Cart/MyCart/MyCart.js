@@ -5,7 +5,7 @@ import { AiOutlineDelete, AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import { BsInfoCircle, BsCheck2Circle, BsArrowLeft } from "react-icons/bs";
 import { MdOutlineLocalShipping, MdPayment } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
-import Img1 from "./image/download.jfif";
+import Img1 from "./image/download.jpg";
 import Img2 from "./image/1-0927393382-1-238x238.661f2ea4077cdcd59bc3.jpg";
 
 const MyCart = () => {

@@ -3,10 +3,10 @@ const PopularDishesNavbar = ({ filterItem, menuList }) => {
       <>
         <nav className="menuNavbar d-flex justify-content-center">
           <div className="btn-group">
-            {menuList.map((curElm) => {
+            {menuList.map((curElm, ind) => {
               return (
-                <div>
-                  <button onClick={() => filterItem(curElm)}>{curElm}</button>
+                <div key={ind}>
+                  <button onClick={() => filterItem(curElm)} key={ind}>{curElm}</button>
                 </div>
               );
             })}
