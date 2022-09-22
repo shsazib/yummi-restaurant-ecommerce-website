@@ -15,6 +15,7 @@ import WhyChooseUsDetails from "./Pages/About/WhyChoose/WhyChooseUsDetails/WhyCh
 import BlogDetails from "./Pages/Blog/BlogCard/BlogDetails/BlogDetails";
 import Wishlist from './Component/Wishlist/Wishlist';
 import Cart from './Component/Cart/Cart';
+import Checkout from './Component/Cart/Checkout/Checkout';
 import Error from "./Pages/Error/Error";
 
 const App = () => {
@@ -40,6 +41,8 @@ const App = () => {
           <Route path="/about/:path" element={<WhyChooseUsDetails />} />
           <Route path="/wishlist" element={<Wishlist />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/checkout" element={<Checkout />} />
+
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
