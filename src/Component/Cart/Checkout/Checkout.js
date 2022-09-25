@@ -185,9 +185,9 @@ const Checkout = () => {
           </div>
         </section>
 
-        <section className="my-cart-bottom">
+        <section className="checkout-bottom">
           <div
-            className="my-cart-return-bottom"
+            className="checkout-return-bottom"
             onClick={() => {
               navigate("/shop");
             }}
@@ -196,12 +196,12 @@ const Checkout = () => {
             <button>Return to shop</button>
           </div>
           <button
-            className="my-cart-continue-bottom"
+            className="checkout-continue-bottom"
             onClick={() => {
               navigate("/checkout");
             }}
           >
-            Continue to Shipping
+            Continue to Delivery Info
           </button>
         </section>
       </section>
