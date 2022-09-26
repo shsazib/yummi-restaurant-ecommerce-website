@@ -3,8 +3,7 @@ import ShopItemAPI from "./ShopItemAPI";
 import ShopItemCard from "./ShopItemCard";
 import "./ShopItemList.css";
 import MenuNavBar from "./ShopItemNavBar";
-import { HiOutlineSearch } from 'react-icons/hi';
-
+import { HiOutlineSearch } from "react-icons/hi";
 
 const uniqeList = [
   ...new Set(
@@ -37,13 +36,13 @@ const MenuList = () => {
         <ShopItemCard menuData={menuData} />
         <section>
           <MenuNavBar filterItem={filterItem} menuList={menuList} />
-          <div>
-          <input type="input" placeholder="Search products..." />
-          <HiOutlineSearch />
+          <div className="shop-item-right-input">
+            <input type="input" placeholder="Search products..." />
+            <HiOutlineSearch className="shop-item-right-search-icon" />
           </div>
           <div>
             <h5>Filter by price</h5>
-            <input type="range" min="0" max="1000"/>
+            <input type="range" min="0" max="1000" />
             <p>Price: $0 — $20</p>
           </div>
           <div>

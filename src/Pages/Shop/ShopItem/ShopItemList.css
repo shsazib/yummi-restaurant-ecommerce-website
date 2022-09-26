@@ -1,48 +1,88 @@
-.shop-item-list{
+.shop-item-list {
   display: grid;
   grid-template-columns: 10fr 2fr;
-  margin: 5% 10%;
+  margin: 4% 10% 5% 10%;
+  grid-gap: 2rem;
 }
-.shop-item-card-container{
+.shop-item-card-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2rem;
 }
-.shop-item-card img{
-width: 70%;
-margin: 20px;
-transition: 0.3s;
+.shop-item-card img {
+  width: 70%;
+  margin: 20px;
+  transition: 0.3s;
 }
-.shop-item-left{
+.shop-item-left {
   display: grid;
   justify-items: center;
 }
-.shop-item-card:hover img{
+.shop-item-card:hover img {
   transform: scale(1.1);
 }
-.menu-card-body p{
+.menu-card-body p {
   text-align: justify;
   color: #666;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 25px;
 }
+.menu-card-body h2 {
+  font-size: 25px;
+}
+.menu-card-body h5 {
+  font-size: 18px;
+}
 
 /* navbar */
-.item-btn-group{
+.item-categories-h3 {
+  color: #222;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ShopItemNavbar {
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 5px;
+  color: #666;
+  font-weight: 600;
+}
+.item-btn-group {
   display: grid;
+  background-color: #fdf8f3;
+}
+.item-button {
+  margin: 5px 0;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #666;
+}
+.item-button:hover {
+  background-color: #ee8422;
+  color: #fff;
+}
+.item-button:hover button {
+  color: #fff;
+}
+.item-btn-group button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 10px;
+  text-transform: capitalize;
+  color: #666;
+  font-weight: 600;
 }
 
 /* shop-item-sorting */
-.shop-item-sorting{
+.shop-item-sorting {
   display: flex;
-  margin: 2% 10%;
+  margin: 4% 10%;
   justify-content: space-between;
 }
-.shop-item-sorting p{
+.shop-item-sorting p {
   color: #666;
   font-family: system-ui;
 }
-.shop-item-sorting select{
+.shop-item-sorting select {
   border: 1px solid rgb(218, 218, 218);
   border-radius: 5px;
   color: #666;
@@ -51,4 +91,26 @@ transition: 0.3s;
   outline: none;
   background-color: #fdf8f3;
   cursor: pointer;
+}
+
+/* shop-item-right-input */
+.shop-item-right-input {
+  margin: 40px 0;
+  background-color: #fdf8f3;
+  padding: 15px 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(218, 218, 218);
+}
+.shop-item-right-input input {
+  border: none;
+  outline: none;
+  background-color: #fdf8f3;
+  width: 85%;
+  padding: 0 5px;
+}
+.shop-item-right-search-icon {
+  font-size: 25px;
+  color: #ee8422;
+  cursor: pointer;
+  transition: 0.1s;
 }
