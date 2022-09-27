@@ -15,7 +15,7 @@ const uniqeList = [
 
 const MenuList = () => {
   const [menuData, setMenuData] = React.useState(MenuAPI);
-  const [menuList, setMenuList] = React.useState(uniqeList);
+  const [menuList] = React.useState(uniqeList);
 
   const filterItem = (category) => {
     if (category === "All") {

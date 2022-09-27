@@ -5,12 +5,12 @@ const ShopCard = ({ menuData }) => {
   return (
     <>
       <section className="shop-item-card-container">
-        {menuData.map((curElm) => {
-          const { id, name, image, category, price, description } = curElm;
+        {menuData.map((curElm, ind) => {
+          const { name, image, category, price, description } = curElm;
 
           return (
             <>
-              <div className="menu-card-container" key={id}>
+              <div className="menu-card-container" key={ind}>
                 <div className="shop-item-card">
                   <div className="shop-item-left">
                     <img src={image} alt="img" />

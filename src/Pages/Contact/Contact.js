@@ -20,7 +20,7 @@ const Contact = () => {
         <section className="contact-middle">
           <h1>Call us or visit place</h1>
           <p className="contact-middle-p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Lorem ipsum dolor sit consectetur, consectetur ipsum consectetur.
           </p>
           <div className="contact-address">
             <div>
@@ -32,7 +32,7 @@ const Contact = () => {
             <div>
               <GoLocation className="contact-icon" />
               <h6>Address</h6>
-              <p>Box 565, Pinney's Beach, Charlestown,</p>
+              <p>Box 565, ipsum's Beach, ipsum,</p>
               <p>Nevis, West Indies, Caribbean</p>
             </div>
             <div>
@@ -48,14 +48,13 @@ const Contact = () => {
             <iframe
               title="myFrame"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.816381774503!2d90.42269691536319!3d23.789552093195525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7bd0340980f%3A0xc1b37b7f015631e1!2sBikers%20Ocean!5e0!3m2!1sen!2sbd!4v1660560043960!5m2!1sen!2sbd"
-              allowfullscreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrer-policy="no-referrer-when-downgrade"
             ></iframe>
           </div>
           <form>
             <h1>Send us a message</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Lorem ipsum dolor ipsum sit, consectetur ipsum sit.</p>
             <input placeholder="Your name" type="text" id="name" name="name" />
             <input placeholder="Email" type="text" id="email" name="email" />
             <input

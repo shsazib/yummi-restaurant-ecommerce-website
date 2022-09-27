@@ -38,31 +38,31 @@ const Footer = () => {
             <h1>Menu</h1>
             <div className="d-flex align-items-center">
               <TiLocationArrowOutline className="footer-icon" />
-              <a href="#">
+              <a href="##">
                 <p>Pizza</p>
               </a>
             </div>
             <div className="d-flex align-items-center">
               <TiLocationArrowOutline className="footer-icon" />
-              <a href="#">
+              <a href="##">
                 <p>Pasta</p>
               </a>
             </div>
             <div className="d-flex align-items-center">
               <TiLocationArrowOutline className="footer-icon" />
-              <a href="#">
+              <a href="##">
                 <p>Burgers</p>
               </a>
             </div>
             <div className="d-flex align-items-center">
               <TiLocationArrowOutline className="footer-icon" />
-              <a href="#">
+              <a href="##">
                 <p>Ice Cream</p>
               </a>
             </div>
             <div className="d-flex align-items-center">
               <TiLocationArrowOutline className="footer-icon" />
-              <a href="#">
+              <a href="##">
                 <p>Shake</p>
               </a>
             </div>
@@ -105,16 +105,15 @@ const Footer = () => {
             <iframe
               title="myFrame"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.816381774503!2d90.42269691536319!3d23.789552093195525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7bd0340980f%3A0xc1b37b7f015631e1!2sBikers%20Ocean!5e0!3m2!1sen!2sbd!4v1660560043960!5m2!1sen!2sbd"
-              allowfullscreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrer-policy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>
         <div className="copyright d-grid justify-content-center mt-5 ">
           <span>
             Copyright ©2022 All rights reserved | and Developed by
-            <a href="https://zealtechbd.com/" target="_blank">
+            <a href="https://zealtechbd.com/" target="__blank">
               ZealtechBD
             </a>
           </span>

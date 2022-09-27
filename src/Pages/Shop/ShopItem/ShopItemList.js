@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import ShopItemAPI from "./ShopItemAPI";
 import ShopItemCard from "./ShopItemCard";
 import "./ShopItemList.css";
@@ -17,6 +17,7 @@ const uniqeList = [
 const MenuList = () => {
   const [menuData, setMenuData] = React.useState(ShopItemAPI);
   const [menuList, setMenuList] = React.useState(uniqeList);
+  const [price, setPrice] = useState(50);
 
   const filterItem = (category) => {
     if (category === "All") {
@@ -30,6 +31,7 @@ const MenuList = () => {
     setMenuData(updateList);
   };
 
+
   return (
     <>
       <section className="shop-item-list">
@@ -42,8 +44,8 @@ const MenuList = () => {
           </div>
           <div>
             <h5>Filter by price</h5>
-            <input type="range" min="0" max="1000" />
-            <p>Price: $0 — $20</p>
+            <input type="range" min="0" max="100" onChange={e => {setPrice(e.target.value)}}/>
+            <p>Price: ${price} — $100</p>
           </div>
           <div>
             <h5>Best Deals</h5>
