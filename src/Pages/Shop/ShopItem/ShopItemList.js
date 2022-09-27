@@ -42,14 +42,14 @@ const MenuList = () => {
             <input type="input" placeholder="Search products..." />
             <HiOutlineSearch className="shop-item-right-search-icon" />
           </div>
-          <div>
+          <div className="item-filter-range">
             <h5>Filter by price</h5>
             <input type="range" min="0" max="100" onChange={e => {setPrice(e.target.value)}}/>
             <p>Price: ${price} — $100</p>
           </div>
-          <div>
+          {/* <div>
             <h5>Best Deals</h5>
-          </div>
+          </div> */}
         </section>
       </section>
     </>
