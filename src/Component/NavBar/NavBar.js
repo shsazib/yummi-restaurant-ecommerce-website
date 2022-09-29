@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./NavBar.css";
 import { NavLink, Link } from "react-router-dom";
-import Logo from "./image/logo.png";
+import Logo from "./image/Untitled-1.png";
 import { HiOutlineSearch } from "react-icons/hi";
 import { CgProfile } from "react-icons/cg";
 import { BsSuitHeart } from "react-icons/bs";

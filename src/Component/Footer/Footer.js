@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import Logo from "./image/logo.png";
+import Logo from "./image/Untitled-1.png";
 import { NavLink } from "react-router-dom";
 import { GoLocation } from "react-icons/go";
 import { TiLocationArrowOutline } from "react-icons/ti";
